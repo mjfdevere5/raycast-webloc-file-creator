@@ -3,7 +3,7 @@
   "name": "webloc-file-creator",
   "title": "Webloc File Creator",
   "description": "Simple extension for creating a .webloc file from a URL.",
-  "icon": "extension-icon.png",
+  "icon": "extension_icon.png",
   "author": "mjf5",
   "categories": [
     "Productivity"
