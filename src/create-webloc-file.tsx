@@ -13,7 +13,7 @@ export default function Command(props: { arguments: CommandArguments }) {
       return;
     }
 
-    const fullPath = path.join(values.folder[0], `${values.filename}`);
+    const fullPath = path.join(values.folder[0], `${values.filename}.webloc`);
 
     const script = `
       set savePath to "${fullPath}"
@@ -49,7 +49,7 @@ export default function Command(props: { arguments: CommandArguments }) {
         canChooseFiles={false}
         allowMultipleSelection={false}
       />
-      <Form.TextField id="filename" title="Filename" placeholder="untitled.webloc" defaultValue="untitled.webloc" />
+      <Form.TextField id="filename" title="Filename" placeholder="your-filename-here" defaultValue="your-filename-here" />
     </Form>
   );
 }
