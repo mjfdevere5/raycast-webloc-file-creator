@@ -49,7 +49,12 @@ export default function Command(props: { arguments: CommandArguments }) {
         canChooseFiles={false}
         allowMultipleSelection={false}
       />
-      <Form.TextField id="filename" title="Filename" placeholder="your-filename-here" defaultValue="your-filename-here" />
+      <Form.TextField
+        id="filename"
+        title="Filename"
+        placeholder="your-filename-here"
+        defaultValue="your-filename-here"
+      />
     </Form>
   );
 }
