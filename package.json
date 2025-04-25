@@ -12,9 +12,19 @@
   "commands": [
     {
       "name": "create-webloc-file",
-      "title": "Create webloc file",
-      "description": "Open new text file, with the text required to save it as a .webloc file.",
-      "mode": "view"
+      "title": "Create Webloc File",
+      "subtitle": "Create a .webloc file",
+      "description": "Create a .webloc file from a URL.",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "URL",
+          "type": "text",
+          "description": "The URL to save in the .webloc file.",
+          "placeholder": "https://example.com",
+          "required": true
+        }
+      ]
     }
   ],
   "dependencies": {
